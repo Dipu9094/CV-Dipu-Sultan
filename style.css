@@ -10,14 +10,18 @@ h1 {
 }
 section {
   display: flex;
+  margin-bottom: 100px;
 }
 .main-1 {
   width: 50%;
-  padding-left: 5px;
+  padding-left: 10px;
   text-align: justify;
 }
 .main-2 img {
-  width: 100%;
+  margin-top: 80px;
+  margin-left: 400px;
+  width: 50%;
+  height: auto;
 }
 .linkedin {
   text-decoration: none;
@@ -27,12 +31,27 @@ section {
   padding: 10px 40px;
   border-radius: 5px;
 }
-.first-image {
-  margin-top: 80px;
-  width: 100%;
-  height: auto;
-}
+
 .top-banner {
   background-image: url("images/top-banner.png");
   background-repeat: no-repeat;
+}
+
+.main-4 {
+  margin-top: 100px;
+  width: 50%;
+  padding-left: 15px;
+  text-align: justify;
+}
+
+.second-image {
+  margin-top: 80px;
+  margin-left: 150px;
+  width: 50%;
+  height: auto;
+}
+.dream-big {
+  background-image: url("images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
 }
