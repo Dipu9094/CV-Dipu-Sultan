@@ -11,7 +11,8 @@ h2 {
   font-size: 45px;
 }
 .span_colour {
-  color: rgb(21, 121, 8);
+  color: #bc6c25;
+  font-weight: 850;
 }
 .flexible-container {
   display: flex;
@@ -24,8 +25,8 @@ h2 {
 .main-2 img {
   margin-top: 80px;
   margin-left: 400px;
-  width: 50%;
-  height: auto;
+  width: 40%;
+  height: 400px;
 }
 .main-4 {
   margin-top: 80px;
@@ -35,7 +36,7 @@ h2 {
 }
 .linkedin {
   text-decoration: none;
-  background-image: linear-gradient(orange, tomato);
+  background-image: linear-gradient(orange, rgb(107, 231, 169));
   color: rgb(48, 47, 34);
   font-weight: bold;
   padding: 10px 40px;
@@ -48,6 +49,47 @@ h2 {
   padding: 30px;
 }
 
+/* Design for skills and Education */
+.head-edu {
+  text-align: center;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_WxHebQGv5VrsKNIaonKwgsVnfwvL-nuzBw&usqp=CAU");
+  color: #dc2f02;
+  padding-bottom: 2px;
+}
+
+.personal-section {
+  display: flex;
+  background-image: url("https://www.pngitem.com/pimgs/m/552-5527104_png-images-for-website-background-white-background-with.png");
+  width: 100%;
+  color: green;
+  justify-content: space-evenly;
+}
+
+.skill h3,
+h4,
+h5 {
+  color: #921042;
+}
+.skill {
+  float: left;
+  width: 40%;
+  padding-left: 200px;
+}
+.education {
+  width: 40%;
+  float: left;
+  padding-left: 300px;
+}
+.web {
+  text-decoration: none;
+}
+
+#idex {
+  color: #3dccc7;
+}
+/* End design for skills and Educaton */
+
+/* Start design for Dream big and rest part */
 .second-image {
   margin-top: 80px;
   margin-left: 100px;
@@ -62,7 +104,7 @@ h2 {
 }
 
 .card {
-  box-shadow: 2px 10px 10px rgb(68, 64, 62);
+  box-shadow: 2px 10px 10px rgb(84, 145, 5);
   border-radius: 7px;
   margin-left: 5%;
   margin-right: 5%;
@@ -74,94 +116,46 @@ h2 {
   background-image: url("./images/exp-bg.png");
   background-repeat: no-repeat;
   background-position: left;
-  
 }
-.experience h1{
+.experience h1 {
   text-align: center;
 }
 
 #fullstack {
-  border-left: 7px solid;
+  /* border-left: 7px solid;
   border-image: linear-gradient(rgb(62, 204, 116), rgb(241, 77, 27));
-  border-image-slice: 1;
+  border-image-slice: 1; */
+
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(./images/border2.png);
+  border-image-slice: 15%;
 }
+
 #baby {
-  border-left: 7px solid;
-  border-image: linear-gradient(blue, cyan);
-  border-image-slice: 1;
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(./images/border.png) round;
+  border-image-slice: 10%;
+}
+
+.middle {
+  background-color: #f5f3f4;
 }
 
 .foot {
   text-decoration: none;
-  background-color: black;
+  background-color: rgb(116, 110, 110);
   text-align: center;
-  padding: 10px;
-  margin-top: 10px;
+  width: 100%;
+  padding: 5px;
+  margin-top: 25px;
 }
-.foot a {
-  color: blanchedalmond;
-  margin-top: 20px;
-  text-decoration: none;
-}
-
+.foot a,
 .foot p {
   color: blanchedalmond;
   margin-top: 20px;
-}
-
-/*.card1{
-      box-shadow: 2px 10px 10px rebeccapurple;
-      margin: 10px;
-      width: 40%;
-      padding: 10px;
-      text-align:justify;
-  }
-
-  .card2{
-    box-shadow: 2px 10px 10px rgb(10, 236, 169);
-    width: 40%;
-    margin: 10px;
-    padding: 10px;
-    text-align:justify;
-}*/
-
-/* .content{
-
-  margin-bottom: 30px;
-
-} */
-.head{
-  text-align: center;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_WxHebQGv5VrsKNIaonKwgsVnfwvL-nuzBw&usqp=CAU');
-  color: #dc2f02;
-  padding-bottom: 2px;
-}
-
-.personal-section {
-  display: flex;
-  background-image: url("https://www.pngitem.com/pimgs/m/552-5527104_png-images-for-website-background-white-background-with.png");
-  width: 100%;
-  color: green;
-  justify-content: space-evenly;
-}
-
-.skill h3 ,h4, h5{
-  color:#921042 ;
-}
-.skill {
-  float: left;
-  width: 40%;
-  padding-left: 200px;
-}
-.education {
-  width: 40%;
-  float: left;
-  padding-left: 300px;
-}
-.web{
   text-decoration: none;
+  padding: 5px;
 }
-
-#clr{
-  color: #1221f5;
-}
+/* End design for Dream big and rest part */
